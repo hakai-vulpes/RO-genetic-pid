@@ -1,0 +1,14 @@
+[project]
+name = "rbt-genetic-pid"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "genetic-metaheuristics>=0.1.0",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+]
+
+[tool.uv.sources]
+genetic-metaheuristics = { git = "ssh://git@github.com/hakai-vulpes/genetic-metaheuristics.git" }
