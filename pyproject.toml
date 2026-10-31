@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-genetic-metaheuristics = { git = "ssh://git@github.com/hakai-vulpes/genetic-metaheuristics.git" }
+genetic-metaheuristics = { git = "https://github.com/hakai-vulpes/genetic-metaheuristics.git" }
